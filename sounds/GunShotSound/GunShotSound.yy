@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "collisionSound",
+  "name": "GunShotSound",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 0.190998,
+  "duration": 0.169524,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "collisionSound.wav",
-  "type": 1,
-  "volume": 0.32,
+  "soundFile": "GunShotSound.wav",
+  "type": 0,
+  "volume": 0.5,
 }
