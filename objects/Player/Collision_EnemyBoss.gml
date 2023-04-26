@@ -23,10 +23,10 @@ if(__dnd_health == 10)
 /// @DnDAction : YoYo Games.Instance Variables.Set_Health
 /// @DnDVersion : 1
 /// @DnDHash : 0B7B3BED
-/// @DnDArgument : "health" "-10"
+/// @DnDArgument : "health" "-20"
 /// @DnDArgument : "health_relative" "1"
 if(!variable_instance_exists(id, "__dnd_health")) __dnd_health = 0;
-__dnd_health += real(-10);
+__dnd_health += real(-20);
 
 /// @DnDAction : YoYo Games.Movement.Jump_To_Start
 /// @DnDVersion : 1
