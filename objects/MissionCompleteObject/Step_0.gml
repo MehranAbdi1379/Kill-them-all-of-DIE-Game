@@ -6,6 +6,7 @@ if global.MissionWonCountDown < 100 {
 }
 else
 {
-	room_restart()
+	room_goto_next()
 }
+
 

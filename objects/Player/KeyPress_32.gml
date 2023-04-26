@@ -2,6 +2,7 @@ if(global.PlayerHasTheGun == 1)
 {
 	if(global.PlayerBulletCount > 0)
 	{
+		audio_play_sound(GunShotSound ,2 , false , 0.5 , 0 , 0.5)
 		if(global.BulletSuperMode ==1 )
 		{
 			if(global.PlayerLeftOrRight == 1)
