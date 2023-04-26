@@ -21,8 +21,8 @@ if(global.PlayerHasTheGun == 0)
 	/// @DnDArgument : "var" "GunYVariable"
 	/// @DnDArgument : "type" "1"
 	/// @DnDArgument : "min" "218"
-	/// @DnDArgument : "max" "700"
-	GunYVariable = floor(random_range(218, 700 + 1));
+	/// @DnDArgument : "max" "650"
+	GunYVariable = floor(random_range(218, 650 + 1));
 
 	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 	/// @DnDVersion : 1

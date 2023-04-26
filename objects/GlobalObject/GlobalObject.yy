@@ -3,17 +3,18 @@
   "resourceVersion": "1.0",
   "name": "GlobalObject",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":true,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "GlobalObjects",
+    "path": "folders/Objects/GlobalObjects.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "GlobalObjectForAllLevels",
+    "path": "objects/GlobalObjectForAllLevels/GlobalObjectForAllLevels.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

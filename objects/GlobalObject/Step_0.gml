@@ -1,43 +1,10 @@
-global.BulletCreateCounter += +1;
+/// @description Insert description here
+// You can write your code in this editor
 
-global.BulletSuperCreateCounter += +1;
-
-global.BulletSuperBigCreateCounter += +1;
+// Inherit the parent event
+event_inherited();
 
 global.EnemyCreateCounter++;
-
-if(global.BulletCreateCounter == 300)
-{
-	GunBulletXVariable = floor(random_range(213, 1400));
-
-	GunBulletYVariable = floor(random_range(218, 700));
-
-	instance_create_layer(GunBulletXVariable, GunBulletYVariable, "Instances", GunBullet);
-
-	global.BulletCreateCounter = 0;
-}
-
-if(global.BulletSuperCreateCounter == 800)
-{
-	BulletSuperXVariable = floor(random_range(213, 1400));
-
-	BulletSuperYVariable = floor(random_range(218, 700));
-
-	instance_create_layer(BulletSuperXVariable, BulletSuperYVariable, "Instances", BulletSuper);
-
-	global.BulletSuperCreateCounter = -800;
-}
-
-if(global.BulletSuperBigCreateCounter == 800)
-{
-	BulletSuperBigXVariable = floor(random_range(213, 1400));
-
-	BulletSuperBigYVariable = floor(random_range(218, 700));
-
-	instance_create_layer(BulletSuperBigXVariable, BulletSuperBigYVariable, "Instances", BulletSuperBig);
-
-	global.BulletSuperBigCreateCounter = -800;
-}
 
 if(global.EnemyCreateCounter == 300)
 {
@@ -47,5 +14,5 @@ if(global.EnemyCreateCounter == 300)
 
 if instance_number(Enemy) == 0 && instance_number(EnemyBoss) == 0
 {
-	instance_create_layer(0 , 0 , "Instances" , MissionCompleteObjecct) 
+	instance_create_layer(0 , 0 , "Instances" , MissionCompleteObject) 
 }
