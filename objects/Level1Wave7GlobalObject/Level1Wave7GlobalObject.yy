@@ -1,15 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Level3GlobalObject",
+  "name": "Level1Wave7GlobalObject",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "GlobalObjects",
-    "path": "folders/Objects/GlobalObjects.yy",
+    "name": "Level1Global",
+    "path": "folders/Objects/GlobalObjects/Level1Global.yy",
   },
   "parentObjectId": {
     "name": "GlobalObjectForAllLevels",

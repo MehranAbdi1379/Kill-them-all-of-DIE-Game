@@ -6,11 +6,14 @@ event_inherited();
 
 global.EnemyCreateCounter++;
 
-if(global.EnemyCreateCounter == 250)
+if(global.EnemyCreateCounter == 220)
 {
-	instance_create_layer(1350, 500, "Instances", Enemy);
+	var rand = random_range(100,500)
+	instance_create_layer(1350, rand, "Instances", EnemyLevel2);
 	global.EnemyCreateCounter=0;
 }
+
+
 
 if instance_number(Enemy) == 0 && instance_number(EnemyBoss) == 0
 {
