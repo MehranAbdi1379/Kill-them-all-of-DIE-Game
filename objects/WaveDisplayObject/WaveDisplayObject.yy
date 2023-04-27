@@ -1,9 +1,9 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "GlobalObject",
+  "name": "WaveDisplayObject",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -11,10 +11,7 @@
     "name": "GlobalObjects",
     "path": "folders/Objects/GlobalObjects.yy",
   },
-  "parentObjectId": {
-    "name": "GlobalObjectForAllLevels",
-    "path": "objects/GlobalObjectForAllLevels/GlobalObjectForAllLevels.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

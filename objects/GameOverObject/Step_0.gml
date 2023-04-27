@@ -6,6 +6,6 @@ if global.wait<100 {
 }
 
 if global.wait ==100{
-room_restart();
+room_goto(RoomMain)
 }
 

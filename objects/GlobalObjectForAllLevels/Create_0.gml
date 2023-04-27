@@ -6,4 +6,5 @@ global.BulletSuperBigCreateCounter = -1000;
 
 global.EnemyCreateCounter = 0;
 
+
 randomize();
